@@ -1,0 +1,68 @@
+body {
+    background-color: #272B30;
+
+}
+
+header img {
+    width: 100%;
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+.nav-bar {
+    margin-top: -30px;
+}
+
+.navbar {
+    background-color: #3A497B;
+    box-shadow: 1px 1px 5px 5px;
+}
+
+.navbar h5 {
+    color: white;
+}
+
+.navbar h5:hover {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #0099CC;
+
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #0099CC;
+}
+
+/* ! Card */
+
+.card-footer span {
+    background-color: #32383E;
+}
+
+.card {
+    transition: all .5s ease-in-out;
+}
+
+.card:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.card .card-body span {
+    background-color: #4A6792;
+    transition: all .4s ease-in-out;
+}
+
+.card:hover .card-body span {
+    background-color: #0D6EFD;
+}
+
+
+/* ! Details */
